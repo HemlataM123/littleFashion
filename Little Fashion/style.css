@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* header section */
+.header{
+    background-color:rgb(236, 232, 232);
+    border: 1px solid;
+     padding: 2vh;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+    .nav h2{
+        font-size: 2rem;
+    }
+.nav ul{
+    list-style-type: none ;
+    display: flex;
+    justify-content:flex-end;
+    width: 50vw;
+    justify-content: space-between;
+}
+.navlink a{
+    text-decoration: none;
+    color: black;
+    font-size:1.3rem;
+}
+.navlink a:hover{
+color:orangered;
+}
+.navlink li{
+ margin:2%;
+}
+/* home section */
+#home{
+    display: flex;
+    background-color: rgb(182, 186, 166);
+    padding: 2%;
+}
+.homediv1{
+background-color:rgb(236,232,232);
+}
+
+ .homediv1 img{
+    height: 100%;
+    width:100%;
+}  
+.homediv2{
+
+    justify-content: center;
+    padding-left: 5vw;
+     margin-top:-30%;
+    font-size: 3rem;
+    line-height:3.2rem;
+    color: rgb(1, 1, 1);
+}
+.homediv2 .btn{
+    height: 6vh;
+    width:15vw;
+     background-color:black;
+     color: white;
+     border-radius:0.5%;
+     font-size:1.2rem;
+     box-shadow: 20%;
+}
+.btn:hover{
+    background-color: antiquewhite;
+    color: black;
+    }
+h1{
+    text-align: center;
+}
+/* story section */
+.storydiv2 img{
+    height: 30vh;
+    width: 40vw;
+   transition: transform 0.3s ease, background-color 0.3s ease-in-out;
+}
+.storydiv2 img:hover{
+    transform: scale(1.09);
+}
+.storyh1{
+    margin-top: 3vh;
+}
+#story{
+    background-color: rgb(197, 205, 203);
+    display: flex;
+    flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 2vh;
+  padding: 2%;
+  }
+ .storydiv3{
+    height: 40vh; 
+     width: 30vw; 
+    margin-top:0.3%; 
+} 
+.storydiv3 p{
+    font-size: 1.5rem;
+}
+.storydiv1{
+    text-align: center;
+    margin-top:5%;
+    line-height: 2rem;
+}
+.storydiv1 p{
+    font-size: 2.2rem;
+}
+#learnabout{
+    height: 4vh;
+    width: 18vw;
+    margin-top: 2%;
+    padding: 3%;
+}
+.learn{
+height: 5vh;
+padding: 3%;
+}
+.learn:hover{
+    background-color:rgb(152, 152, 86);
+    color:orangered;
+}
+.storydiv2 img{
+    height: 50vh;
+    }
+.shopownerdiv1 img{
+    height: 70vh;
+    width: 50vw;
+}
+.shopowner{
+    display: flex; 
+    background-color:rgb(197, 205, 203); 
+    margin-top:1%;
+    padding: 2%;
+}
+.shopownerdiv2{
+background-color: rgb(252, 252, 235);
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+font-size: 1.5rem;
+}
+.shopownerdiv2 p{
+    padding: 3%;
+}
+#explore{
+    height: 4vh;
+    width: 15vw;
+}
+.button:hover{
+    background-color: rgb(151, 108, 56);
+    color:rgb(226, 214, 210) ;
+}
+/* product section */
+#product{
+    background-color:rgb(173, 175, 174);
+    padding: 2%;
+}
+.productdiv1{
+    display: flex;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+}
+.tree img,.cloth img,.drink img{
+    width: 20vw;
+    height: 30vh;
+    margin-top:0.5%;
+    transition: transform 0.3s ease, background-color 0.3s ease-in-out;
+}
+.tree img:hover{
+    transform: scale(1.09);
+}
+.cloth img:hover{
+    transform: scale(1.09);
+}
+.drink img:hover{
+    transform: scale(1.09);
+}
+#price{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vh;
+    font-weight:bold;
+}
+.tree p,.cloth p,.drink p{
+text-align: center;
+color: orangered;
+font-size: 1.2rem;
+}
+#button{
+    text-align: center;
+    margin-top:0.5%;
+}
+.button{
+    margin-top: 4vh;
+    height:5vh;
+    width: 10vw;
+}
+#footer{
+    background-color: rgb(28, 25, 25);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2%;
+}
+.footer1{
+    color: white;
+    margin-top:1%;
+    line-height: 2rem;
+    width: 10vw;
+}
+.ten{
+    width:2rem;
+     height:6rem; 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#icons{
+    display: flex;
+    justify-content:space-around;
+    font-size: 1.9rem;
+    padding-top: 2vh;
+   
+}
+#icons p{
+    border: 1px solid white;
+    padding:1vh;
+    border-radius: 50px;
+}
+
+
+
+
+

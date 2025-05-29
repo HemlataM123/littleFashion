@@ -1,0 +1,174 @@
+@media screen and (max-width:320px) {
+    .header{
+        background-color:rgb(236, 232, 232);
+        display: flex;
+        justify-content: space-evenly;
+        border: 1px solid;
+         align-items: center; 
+    }
+    .nav ul{
+        list-style-type: none ;
+        display: flex;
+        justify-content: space-between;
+    }
+    .navlink{
+        display: flex;
+        justify-content: space-evenly; 
+    }
+    .navlink a{
+        text-decoration: none;
+        color: black;
+    }
+    .navlink li{
+     margin:3%;
+    }
+    /* home section */
+    #home{
+        background-color: rgb(232, 245, 175);
+        padding: 2%;
+    }
+    .homediv1{
+     background-color:rgb(236,232,232);
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap; 
+    }
+    .homediv2{
+        line-height:1.2rem;
+    }
+    .homediv2 .btn{
+        height: 4vh;
+        width:15vw;
+         background-color:black;
+         color: white;
+         border-radius:0.5%;
+         align-self:center;
+         font: size 0.5rem;
+         margin-top: 2%;
+         transition: transform 0.3s ease;
+    }
+    h1{
+        text-align: center;
+    }
+    /* story section */
+    .storydiv2 img{
+        height: 30vh;
+        width: 40vw;
+    }
+    .storyh1{
+        margin-top: 2vh;
+    }
+    #story{
+        background-color: rgb(197, 205, 203);
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+      justify-content: space-evenly;
+      margin-top: 2vh;
+      padding: 2%;
+      }
+     .storydiv3{
+        height: 40vh; 
+         width: 50vw;  
+    } 
+    .storydiv3 p{
+        font-size: 0.7rem;
+    }
+    .storydiv1{
+        text-align: center;
+        margin-top:5%;
+        line-height: 1rem;
+    }
+    .storydiv1 p{
+        font-size: 1.2rem;
+    }
+    .learn{
+        height: 4vh;
+        width: 15vw;
+        font-size: 0.2rem;
+   }
+    .storydiv2 img{
+        height: 50vh;
+        }
+    .shopownerdiv1 img{
+        height:40vh;
+        width: 90vw;
+    }
+    .shopowner{
+        display: flex; 
+        flex-direction: column;
+        flex-wrap: wrap;
+        background-color:rgb(197, 205, 203); 
+        margin-top:1%;
+        padding: 2%;
+    }
+    .shopownerdiv2{
+    background-color: rgb(252, 252, 235);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    }
+     #explore{
+        height: 4vh;
+        width: 15vw;
+        font-size: 0.5rem;
+    } 
+    /* product section */
+    #product{
+        background-color:rgb(197,205,203);
+        padding: 2%;
+    }
+    .productdiv1{
+        display: flex;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+    }
+    .tree img,.cloth img,.drink img{
+        height: 20vh;
+        margin-top:0.5%;
+    }
+    #price{
+        display: flex;
+        justify-content: space-between;
+    }
+    .tree p,.cloth p,.drink p{
+    text-align: center;
+    }
+    #button{
+        text-align: center;
+
+    }
+    .button{
+        height:4vh;
+        width: 25vw; 
+        font-size: 0.5rem;
+    }
+    #footer{
+        background-color: rgb(28, 25, 25);
+        display: flex;
+        justify-content: space-evenly;
+        padding: 2%;
+    }
+    .footer1{
+        color: white;
+        margin-top:1%;
+        line-height: 2rem;
+        width: 30vw;
+    }
+    .ten{
+        width:2rem;
+         height:6rem; 
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    #icons{
+        display: flex;
+        justify-content:space-between;
+    }
+}

@@ -1,0 +1,147 @@
+@media screen and (max-width:480px){
+    .header{
+        background-color:rgb(251, 198, 198);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        border: 1px solid;
+    }
+    .navlink{
+        display: flex;
+        justify-content:right;
+        flex-wrap: wrap;
+    }
+    .navlink a{
+        text-decoration: none;
+        color: black;
+    }
+    .homediv1{
+        width: 100%;
+        background-color:rgb(224, 204, 204);
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
+        }
+        .homediv1 img{
+            height:32vh;
+            width:100%;
+        }
+        .homediv2{
+            margin-top:1%;
+            color:black;
+            font-size:1rem;
+        }
+        .homediv2 h2{
+            font-size: 1.2rem;
+        }
+        .homediv2 .btn{
+            height: 4vh;
+            width:20vw;
+            font-size: 0.5rem;
+             background-color:rgb(241, 176, 176);
+             color: white;
+             border-radius:0.5%;
+             align-self:center;
+        }
+             #story{
+                background-color: rgb(194, 233, 224);
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+              text-align: center;
+              }
+            .storydiv3{
+                align-self:center;
+            }
+            .storydiv3 p{
+                line-height:1rem;
+                font-size: 0.8rem;
+                text-align:center;
+            }
+            .storydiv2 img{
+                height: 32vh;
+                width: 42vw;
+            }
+            .storydiv1{
+                text-align:center;
+                 margin-top:5%;
+            }
+            .shopownerdiv1 img{
+                height: 33vh;
+                width:100%;
+                margin-top: 1%;
+            }
+            .shopowner{
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                background-color:rgb(193, 198, 166);
+                margin:0.3%;
+            }
+            .shopownerdiv2{
+            background-color: rgb(192, 192, 180);
+            text-align:center;
+            font-size: 1rem;
+            }
+            .shopownerdiv2 p{
+                font-size: 0.9rem;
+            }
+            .shopownerdiv2 h1{
+                font-size: 1.8rem;
+            }
+            #product{
+                background-color:rgb(200, 251, 238);
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+            }
+            .productdiv1{
+                display: flex;
+             flex-wrap: wrap;
+             flex-direction: column;
+             align-items: center;
+            }
+            .tree img,.cloth img,.drink img{
+                height: 20vh;
+                margin-top:0.5%;
+            }
+            #price{
+                display: flex;
+                justify-content: space-between;
+            }
+            .tree p,.cloth p,.drink p{
+            text-align: center;
+            font-size: 1rem;
+            }
+            #button{
+                text-align: center;
+                margin-top:0.5%;
+            }
+            #footer{
+                background-color: rgb(28, 25, 25);
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                font-size: 0.9rem;
+                align-items: center;
+            }
+            #footer h2{
+                font-size: 1.2rem;
+                text-align: center;
+            }
+            .footer1{
+                color: white;
+                line-height: 1.3rem;
+            }
+            .ten{
+                width:2rem;
+                 height:6rem; 
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+        }
+    
